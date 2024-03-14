@@ -1,12 +1,6 @@
-# Race Condition Demo with Node.js, Redis, and RabbitMQ
-
 This is a simple Node.js application demonstrating a race condition scenario using Redis for managing a shared counter and RabbitMQ for inter-process communication.
 
-## Purpose
-
 The purpose of this application is to illustrate how race conditions can occur when multiple processes or threads attempt to update a shared resource concurrently, leading to unexpected results such as incorrect counter values.
-
-## Requirements
 
 To run this application, you'll need:
 
