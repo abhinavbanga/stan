@@ -1,0 +1,11 @@
+{
+  "name": "race-condition-app",
+  "version": "1.0.0",
+  "description": "Node.js application simulating race condition with Redis and RabbitMQ",
+  "main": "counterConsumer.js",
+  "dependencies": {
+    "redis": "^3.1.2",
+    "rabbit.js": "^0.4.1"
+  }
+}
+
